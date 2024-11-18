@@ -47,7 +47,9 @@ https://code.visualstudio.com/docs/python/python-tutorial
 
 ### SDK Installation
 
-Boto3 is a Python SDK used to interact with AWS resources through code. There's a handy documentation page for this which includes classes and methods for different AWS services.
+Boto3 is a Python SDK used to interact with AWS resources through code. There's a handy documentation page for this which includes classes,  methods & code examples for different AWS services:
+
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html
 
 To install boto3, we can open a terminal window in your Python IDE and enter the following comand
 
@@ -55,14 +57,19 @@ To install boto3, we can open a terminal window in your Python IDE and enter the
 
 This should automatially install all the dependencies & the boto3 SDK
 
-We can verify this package has installed successfully by 
+We can verify this package has installed successfully by opening your python terminal and entering
 
-__You will need python installed for pip to be available__
+```pip show boto3```
+
+This will show the location of the package if successful.
+
+
+__Note:__ You will need python installed for pip to be available
 
 
 ## Generate Access Keys
 
-This is the final step to interacting with AWS from your code editor. 
+This is the final step to enable interaction with AWS from your code editor. 
 
 You'll need to follow some steps below on the AWS console to set up some access keys, they are vital for connecting to AWS and interacting with your services.
 
