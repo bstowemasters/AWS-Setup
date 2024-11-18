@@ -16,7 +16,15 @@ Please note, you will need to provide card information & a phone number for the 
 
 https://www.w3schools.com/aws/aws_cloudessentials_getstarted.php
 
-If you want to explore what some of the resources are, theres a collection of pages on this link explaining each service.
+
+Once you've created an account, you'll be greeted with the AWS landing page. You don't need to do anything else here yet but feel free to explore some services and have a read into what they do!
+
+Some examples of simple services:
+
+S3 - File Storage
+DynamoDB - Databases
+Lambda - Online IDE | Run code online
+SNS - A notification service | Trigger a text/email when something happens
 
 
 ## Python IDE installation
@@ -27,15 +35,6 @@ For simplicity i'll be using VSCode, please don't use an online IDE for this suc
 
 Go to this link and download VSCode for the appropriate OS:
 https://code.visualstudio.com/download
-
-Once you've created an account, you'll be greeted with the AWS landing page. You don't need to do anything else here yet but feel free to explore some services and have a read into what they do!
-
-Some examples of simple services:
-
-S3 - File Storage
-DynamoDB - Databases
-Lambda - Online IDE | Run code online
-SNS - A notification service | Trigger a text/email when something happens
 
 
 ### Python installation
