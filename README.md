@@ -60,29 +60,6 @@ We can verify this package has installed successfully by
 
 __You will need python installed for pip to be available__
 
-## AWS CLI Installation
-
-This tool is what we can use to interact with AWS services.
-
-In this case, we'll be using it to generate authentication credentials so that we can access AWS resources through Boto3 in Python.
-
-To install the AWS CLI you can follow this guide below:
-
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-
-For windows users, this is simply a case of downloading an installer and running it.
-
-If you're using a Mac, you'll have to be on OS 10.15 or above.
-
-There is a __pkg__ on the website to install the AWS CLI, just ensure you install it to the default location (just run the setup and don't change anything!)
-
-after installation on either OS, open up a terminal window and enter:
-```aws```
-
-This should give you a response showing the usage instructions for the CLI tool.
-
-If you don't get this output, somethings gone wrong during installation.
-
 
 ## Generate Access Keys
 
@@ -109,13 +86,15 @@ Go to the search bar and type in ```IAM```
 
 Click on ```Users``` just below the 'Top Features' Tab.
 
-This will bring up a new window showing all of the current users, you'll see an empty table like so:
+This will bring up a new window showing all of the current users, you'll see an empty table like this:
 
 ![IAM Users](/Resources/IAMUsers.png)
 
 Click on the ```Create User``` button, enter a user name and click ```next```.
 
-You'll now see a screen asking for you to set up some permissions for this account. We will keep things simple here and add administrator access to our new account. To do this, select ```Attach policies directly``` and tick the ✅```Administrator Access``` policy.
+You'll now see a screen asking for you to set up some permissions for this account. We will keep things simple and add administrator access to our new account. 
+
+To do this, select ```Attach policies directly``` and tick the ✅```Administrator Access``` policy.
 
 This is shown in the image below:
 
@@ -155,7 +134,7 @@ There's an option to download these access keys as a CSV file
 
  __make sure you do!__ 
  
- As once this page is gone, you won't be able to find them again!
+ Once this page is gone, you won't be able to find them again!
 
 
 ___
